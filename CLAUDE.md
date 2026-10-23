@@ -37,8 +37,8 @@ A tarefa roda toda **segunda de manhã** e agenda a semana:
 
 | Dia | Horário | Instagram | Google Meu Negócio |
 |---|---|---|---|
-| Segunda | 18:30 | **Card** (POST com imagem) | Texto do mesmo tema |
-| Quinta | 18:30 | **Reels** (vídeo animado com música) | Texto do mesmo tema |
+| Segunda | 18:30 | **Card** (POST com imagem) | Texto do mesmo tema + imagem do card |
+| Quinta | 18:30 | **Reels** (vídeo animado com música) | Texto do mesmo tema + capa do Reels |
 
 São 4 posts por semana. **Controle do limite:** some no `historico.md` quantos posts já foram agendados no mês de cada data. Se agendar os 4 fizer o mês passar de **19**, corte primeiro o texto do Google Meu Negócio de quinta; se ainda passar, corte o de segunda. Nunca passe de 19 no mês (deixa 1 de folga para algo que o Leandro peça).
 
@@ -73,7 +73,7 @@ São 4 posts por semana. **Controle do limite:** some no `historico.md` quantos 
 7. **Agendar no Metricool** com `createScheduledPost`, `draft: false`, `autoPublish: true`:
    - Segunda, Instagram: `instagramData.type = "POST"`, `media` = link raw do PNG, `mediaAltText` descrevendo o card.
    - Quinta, Instagram: `instagramData.type = "REEL"`, `showReelOnFeed: true`, `media` = link raw do MP4, `videoCoverMilliseconds` = 500 ms antes do fim do vídeo.
-   - Cada dia, Google Meu Negócio: `providers [{"network":"gmb"}]`, `gmbData.type = "publication"`, só texto.
+   - Cada dia, Google Meu Negócio: `providers [{"network":"gmb"}]`, `gmbData.type = "publication"`, texto **com imagem**: na segunda, `media` = o mesmo PNG do card (ou a foto real); na quinta, `media` = a capa do Reels (`reels/<arquivo>-capa.png`), porque post de texto do Google não aceita vídeo. Nunca mande post do Google sem imagem.
    - `isAiGenerated: false` nos cards e Reels (são artes gráficas, não imagem realista gerada por IA). Se um dia usar imagem realista gerada por IA, marque `true`.
    - Se o Metricool recusar por limite do plano, não insista: registre no histórico e avise no resumo.
 8. **Histórico:** acrescente as linhas da semana em `historico.md` (data, rede, formato, tema, link do Metricool) e atualize a contagem do mês. Commit e push.
