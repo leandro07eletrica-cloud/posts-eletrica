@@ -1,0 +1,13 @@
+{
+  "tipo": "card",
+  "arquivo": "exemplo-card",
+  "etiqueta": "Alerta",
+  "titulo": ["Chuveiro com", "**cheiro de queimado?**"],
+  "subtitulo": "Desligue o disjuntor e não use até verificar.",
+  "itens": [
+    "Fio ou conector derretido na ligação do chuveiro",
+    "Fiação fina demais para a potência do chuveiro",
+    "Disjuntor sem proteção adequada para o circuito"
+  ],
+  "cta": "Isso é risco real de incêndio. **Eu verifico e deixo seguro.**"
+}

@@ -1,0 +1,15 @@
+{
+  "tipo": "reel",
+  "arquivo": "exemplo-reel",
+  "etiqueta": "Dica de eletricista",
+  "titulo": ["Disjuntor", "desarmando", "**toda hora?**"],
+  "subtitulo": "Ele está te avisando de alguma coisa.",
+  "itens": [
+    "**Sobrecarga:** muitos aparelhos no mesmo circuito",
+    "**Curto-circuito** em fio, tomada ou aparelho",
+    "**Disjuntor errado** para a fiação"
+  ],
+  "alerta": "Trocar por um disjuntor maior **pode causar incêndio.**",
+  "cta": "Eu encontro a causa e resolvo do jeito certo.",
+  "musica": 0
+}
