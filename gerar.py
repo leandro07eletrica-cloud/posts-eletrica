@@ -14,6 +14,17 @@ Formato do JSON (veja specs/exemplo-card.json e specs/exemplo-reel.json):
   cta         card: frase final, **trecho** em amarelo | reel: frase do rodapé
   alerta      (só reel, opcional) frase de aviso em caixa vermelha; **trecho** destacado
   musica      (só reel, opcional) número da variação de trilha, 0 a 3
+  tema        (só reel, opcional) "escuro" (padrão) ou "amarelo"
+
+Layouts de card (campo "layout", padrão "lista"):
+  lista     etiqueta, titulo, subtitulo, itens (3), cta            fundo azul escuro
+  pergunta  etiqueta, titulo (pergunta em 3-4 linhas curtas),
+            resposta (2 a 3 frases), cta                         fundo amarelo
+  mito      etiqueta (assunto), mito (frase errada que o povo
+            fala), verdade (a correção), cta                     fundo claro
+  numero    etiqueta, numero (ex. "30"), unidade (ex. "mA"),
+            titulo (2-3 linhas explicando o número), itens (2), cta   fundo azul com número gigante
+  Use só números técnicos reais (norma, especificação); nunca invente estatística.
 """
 import html, json, os, re, shutil, subprocess, sys, tempfile
 import numpy as np, wave
@@ -27,9 +38,40 @@ def fmt(texto, tag_destaque):
     return re.sub(r"\*\*(.+?)\*\*", lambda m: tag_destaque.format(m.group(1)), t)
 
 
+LAYOUTS_CARD = {"lista": "card.html", "pergunta": "card-pergunta.html", "mito": "card-mito.html", "numero": "card-numero.html"}
+
+
+def montar_card_especial(spec):
+    """Layouts de card além da lista: pergunta, mito e numero."""
+    layout = spec["layout"]
+    modelo = open(os.path.join(BASE, "modelos", LAYOUTS_CARD[layout]), encoding="utf-8").read()
+    titulo = "".join('<span class="l">%s</span>' % fmt(l, "<span class=y>{}</span>") for l in spec.get("titulo", []))
+    itens = "".join('<div class="item"><div>%s</div></div>' % fmt(it, "<b>{}</b>") for it in spec.get("itens", []))
+    numero = html.escape(spec.get("numero", ""))
+    if spec.get("unidade"):
+        numero += "<small>%s</small>" % html.escape(spec["unidade"])
+    destaque_cta = "<b>{}</b>" if layout == "mito" else "{}"
+    subs = {
+        "{{ETIQUETA}}": html.escape(spec.get("etiqueta", "")),
+        "{{TITULO}}": titulo,
+        "{{RESPOSTA}}": fmt(spec.get("resposta", ""), "<b>{}</b>"),
+        "{{MITO}}": fmt(spec.get("mito", ""), "{}"),
+        "{{VERDADE}}": fmt(spec.get("verdade", ""), "<b>{}</b>"),
+        "{{NUMERO}}": numero,
+        "{{ITENS}}": itens,
+        "{{CTA}}": fmt(spec.get("cta", ""), destaque_cta),
+    }
+    for k, v in subs.items():
+        modelo = modelo.replace(k, v)
+    return modelo, 0
+
+
 def montar_html(spec):
     reel = spec["tipo"] == "reel"
+    if not reel and spec.get("layout", "lista") != "lista":
+        return montar_card_especial(spec)
     modelo = open(os.path.join(BASE, "modelos", "reel.html" if reel else "card.html"), encoding="utf-8").read()
+    modelo = modelo.replace("{{TEMA}}", "amarelo" if spec.get("tema") == "amarelo" else "escuro")
     linhas = spec["titulo"]
     t_lin = [0.35 + 0.2 * i for i in range(len(linhas))]
     titulo = ""

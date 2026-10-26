@@ -1,0 +1,38 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{width:1080px;height:1350px;font-family:'Inter',sans-serif;background:#0E1A2B;color:#fff;position:relative;overflow:hidden}
+  .ring{position:absolute;right:-260px;top:-200px;width:900px;height:900px;border-radius:50%;border:70px solid #FFC21A;opacity:.07}
+  .wrap{padding:90px 90px 0 90px;position:relative;zoom:var(--z,1)}
+  .tag{display:inline-block;border:3px solid #FFC21A;color:#FFC21A;font-weight:800;font-size:28px;letter-spacing:3px;padding:10px 22px;border-radius:8px;text-transform:uppercase}
+  .num{font-family:'Inter Display','Inter',sans-serif;font-weight:900;font-size:300px;line-height:.9;letter-spacing:-12px;color:#FFC21A;margin-top:40px;white-space:nowrap}
+  .num small{font-size:120px;letter-spacing:-4px;margin-left:12px}
+  h1{font-family:'Inter Display','Inter',sans-serif;font-weight:800;font-size:64px;line-height:1.08;letter-spacing:-1.5px;margin-top:30px}
+  h1 .l{display:block}
+  .y{color:#FFC21A}
+  .list{margin-top:44px;display:flex;flex-direction:column;gap:20px}
+  .item{display:flex;gap:24px;align-items:baseline;font-size:40px;font-weight:500;line-height:1.25;color:#C9D3E0}
+  .item:before{content:"";flex:0 0 22px;height:22px;background:#FFC21A;transform:translateY(-4px) rotate(45deg)}
+  .item b{color:#fff;font-weight:800}
+  .cta{margin-top:40px;font-size:40px;font-weight:800;color:#FFC21A}
+  .foot{position:absolute;left:0;right:0;bottom:0;height:170px;background:#FFC21A;color:#0E1A2B;display:flex;align-items:center;justify-content:space-between;padding:0 90px}
+  .name{font-family:'Inter Display','Inter',sans-serif;font-weight:900;font-size:46px;letter-spacing:-1px;line-height:1.05}
+  .name small{display:block;font-family:'Inter';font-weight:600;font-size:28px;letter-spacing:0;margin-top:6px}
+  .wpp{text-align:right;font-weight:800;font-size:44px;line-height:1.1;white-space:nowrap}
+  .wpp small{display:block;font-weight:600;font-size:26px}
+</style></head>
+<body>
+<div class="ring"></div>
+<div class="wrap" id="conteudo">
+  <div class="tag">{{ETIQUETA}}</div>
+  <div class="num">{{NUMERO}}</div>
+  <h1>{{TITULO}}</h1>
+  <div class="list">{{ITENS}}</div>
+  <div class="cta">{{CTA}}</div>
+</div>
+<div class="foot" id="rodape">
+  <div class="name">Leandro Cruz<small>Eletricista · Santa Teresa e região</small></div>
+  <div class="wpp"><small>Chama no WhatsApp</small>(27) 99855-6375</div>
+</div>
+</body></html>

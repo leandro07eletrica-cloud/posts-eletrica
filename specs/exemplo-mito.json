@@ -1,0 +1,9 @@
+{
+  "tipo": "card",
+  "layout": "mito",
+  "arquivo": "exemplo-mito",
+  "etiqueta": "Choque no chuveiro",
+  "mito": "Choquinho no chuveiro é normal, todo mundo tem.",
+  "verdade": "Choque nunca é normal. É sinal de **fuga de corrente** ou falta de **aterramento**.",
+  "cta": "Sentiu choque? **Me chama antes que piore.**"
+}

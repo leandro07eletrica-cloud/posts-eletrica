@@ -1,0 +1,14 @@
+{
+  "tipo": "card",
+  "layout": "numero",
+  "arquivo": "exemplo-numero",
+  "etiqueta": "Proteção que salva vidas",
+  "numero": "30",
+  "unidade": "mA",
+  "titulo": ["É a fuga de corrente que faz", "o **DR desligar** antes de", "um choque grave."],
+  "itens": [
+    "Obrigatório em banheiro, cozinha e área externa pela **NBR 5410**",
+    "Casa antiga **sem DR** está desprotegida"
+  ],
+  "cta": "Sua casa tem DR? Eu verifico."
+}

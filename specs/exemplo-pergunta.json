@@ -1,0 +1,9 @@
+{
+  "tipo": "card",
+  "layout": "pergunta",
+  "arquivo": "exemplo-pergunta",
+  "etiqueta": "Pergunta de cliente",
+  "titulo": ["Posso ligar o", "ar-condicionado", "na **tomada comum?**"],
+  "resposta": "Não é o ideal. O ar-condicionado precisa de um **circuito exclusivo**, com fio e disjuntor do tamanho certo. Na tomada comum o fio esquenta e o disjuntor vive caindo.",
+  "cta": "Vai instalar um? Eu faço o circuito certo."
+}

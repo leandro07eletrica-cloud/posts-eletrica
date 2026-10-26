@@ -23,13 +23,27 @@
   .name{font-family:'Inter Display','Inter',sans-serif;font-weight:900;font-size:58px;letter-spacing:-1px;line-height:1}
   .name small{display:block;font-family:'Inter';font-weight:600;font-size:28px;letter-spacing:0;margin-top:8px;white-space:nowrap}
   .wpp{font-weight:900;font-size:50px;white-space:nowrap}
+  /* Tema amarelo: alterna com o escuro para o grid do perfil não ficar repetido */
+  body.amarelo{background:#FFC21A;color:#0E1A2B}
+  body.amarelo .bolt path{fill:#0E1A2B}
+  body.amarelo .tag{background:#0E1A2B;color:#FFC21A}
+  body.amarelo .y{background:#0E1A2B;color:#FFC21A;padding:0 .12em}
+  body.amarelo .sub{color:#0E1A2B;opacity:.85}
+  body.amarelo .item{background:rgba(14,26,43,.10)}
+  body.amarelo .item b{color:#0E1A2B;font-weight:900}
+  body.amarelo .num{background:#0E1A2B;color:#FFC21A}
+  body.amarelo .warn{border-color:#0E1A2B;background:#0E1A2B;color:#fff}
+  body.amarelo .warn b{color:#FFC21A}
+  body.amarelo .foot{background:#0E1A2B;color:#fff}
+  body.amarelo .name{color:#FFC21A}
+  body.amarelo .name small{color:#C9D3E0}
   @keyframes pop{from{opacity:0;transform:scale(.6)}to{opacity:1;transform:scale(1)}}
   @keyframes up{from{opacity:0;transform:translateY(40px)}to{opacity:1;transform:none}}
   @keyframes slide{from{opacity:0;transform:translateX(-80px)}to{opacity:1;transform:none}}
   @keyframes rise{from{transform:translateY(100%)}to{transform:none}}
   @keyframes pulse{50%{transform:scale(1.03)}}
 </style></head>
-<body>
+<body class="{{TEMA}}">
 <svg class="bolt" viewBox="0 0 100 160"><path d="M60 0 L5 95 H45 L35 160 L95 60 H55 Z" fill="#FFC21A"/></svg>
 <div class="wrap" id="conteudo">
   <div class="tag">{{ETIQUETA}}</div>

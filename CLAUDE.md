@@ -62,12 +62,23 @@ São 4 posts por semana. **Controle do limite:** some no `historico.md` quantos 
    - Aterramento: para que serve
 5. **Fotos reais têm prioridade.** Antes de criar o card de segunda, procure na pasta do Drive arquivos de imagem novos (posteriores à última execução registrada no histórico). Se houver foto real de serviço, use-a no post de segunda no lugar do card: legenda de "serviço realizado" baseada no que dá para ver na foto, sem inventar detalhes que não aparecem. Para isso, baixe o arquivo (Drive `download_file_content`), salve em `fotos/AAAA-MM-DD-tema.jpg`, faça commit e use o link raw. Se não conseguir baixar, siga com o card normal e avise no resumo.
 
+## Variedade visual (obrigatório)
+
+A identidade (cores azul escuro e amarelo, fonte, rodapé com nome e WhatsApp) é fixa. O **layout** muda, para o grid do perfil não ficar repetido.
+
+- **Cards** têm 4 layouts (`layout` no spec, detalhes no cabeçalho de `gerar.py`): `lista` (azul escuro, 3 itens), `pergunta` (fundo amarelo, pergunta grande e resposta curta), `mito` (fundo claro, mito riscado e verdade), `numero` (número técnico gigante).
+- **Nunca repita o layout do card anterior.** Rodízio sugerido: lista, pergunta, mito, numero, e recomeça. Escolha o layout que combina com o tema: dúvida comum do cliente vai bem em `pergunta`; crença errada ("é normal", "é só trocar") em `mito`; norma ou especificação com número real (30 mA do DR, circuito exclusivo, bitola) em `numero`; sinais de alerta e passo a passo em `lista`.
+- `numero` só com número técnico verdadeiro e conferível. Nunca invente estatística ("8 em cada 10 casas...").
+- **Reels alternam o tema**: `"tema": "escuro"` e `"tema": "amarelo"`, nunca o mesmo da semana anterior.
+- Na coluna Formato do `historico.md`, registre o layout ou tema, ex.: `Card (mito)`, `Reels (amarelo)`. É por ali que a próxima execução sabe o que veio antes.
+- Foto real do Leandro sempre quebra o padrão e tem prioridade.
+
 ## Passo a passo da execução
 
 1. **Repositório:** se este repositório não estiver no ambiente, anexe com `add_repo` (owner `leandro07eletrica-cloud`, repo `posts-eletrica`, access `push`) e clone. Rode `git pull` antes de começar.
 2. **Situação:** chame o Metricool `getScheduledPosts` (brandId 7610648) para a semana atual. Se já houver post agendado para segunda ou quinta desta semana, não duplique aquele dia.
 3. **Datas:** segunda e quinta da semana corrente, 18:30 America/Sao_Paulo. Se a segunda 18:30 já passou, use terça 18:30.
-4. **Specs:** escreva `specs/AAAA-MM-DD-tema.json` para o card e para o Reels, no formato de `specs/exemplo-card.json` e `specs/exemplo-reel.json` (veja o cabeçalho de `gerar.py`). Títulos curtos (2 ou 3 linhas de até ~18 caracteres), 3 itens de no máximo ~60 caracteres. Varie `musica` entre 0 e 3.
+4. **Specs:** escreva `specs/AAAA-MM-DD-tema.json` para o card e para o Reels, no formato dos exemplos em `specs/` (`exemplo-card.json` para lista, `exemplo-pergunta.json`, `exemplo-mito.json`, `exemplo-numero.json`, `exemplo-reel.json`; veja o cabeçalho de `gerar.py`). Siga a seção Variedade visual para escolher layout do card e tema do Reels. Títulos curtos (2 ou 3 linhas de até ~18 caracteres), 3 itens de no máximo ~60 caracteres. Varie `musica` entre 0 e 3.
 5. **Gerar:** `python3 gerar.py specs/<card>.json specs/<reel>.json`. Abra o PNG do card e o PNG de capa do Reels (`reels/<arquivo>-capa.png`) com a ferramenta de leitura de imagem e confira: nada cortado, nada sobreposto ao rodapé, texto em português correto. Se algo estiver ruim, encurte o texto do spec e gere de novo (no máximo 2 tentativas).
 6. **Publicar arquivos:** `git add` de specs, cards e reels; commit com mensagem curta; `git push origin main`.
 7. **Agendar no Metricool** com `createScheduledPost`, `draft: false`, `autoPublish: true`:
