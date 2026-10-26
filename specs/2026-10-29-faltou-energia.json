@@ -1,0 +1,15 @@
+{
+  "tipo": "reel",
+  "arquivo": "2026-10-29-faltou-energia",
+  "etiqueta": "Dica de eletricista",
+  "titulo": ["Faltou energia", "**só na sua**", "**casa?**"],
+  "subtitulo": "Veja isso antes de ligar para a EDP.",
+  "itens": [
+    "Os **vizinhos** também estão sem luz?",
+    "O **disjuntor geral** do quadro está desarmado?",
+    "Desarmou de novo? **Não insista** e chame ajuda"
+  ],
+  "alerta": "Nunca abra o padrão nem mexa em fio: **é perigoso.**",
+  "cta": "Eu encontro a pane e resolvo do jeito certo.",
+  "musica": 2
+}
