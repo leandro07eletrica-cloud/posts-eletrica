@@ -1,0 +1,16 @@
+{
+  "tipo": "reel",
+  "arquivo": "2026-11-05-ar-condicionado",
+  "etiqueta": "Verão chegando",
+  "titulo": ["Vai instalar", "**um ar novo?**"],
+  "subtitulo": "Antes do aparelho, vem a instalação elétrica.",
+  "itens": [
+    "Precisa de **circuito exclusivo** saindo do quadro",
+    "**Fio e disjuntor** do tamanho certo para o aparelho",
+    "Nada de **benjamim ou extensão** para ligar"
+  ],
+  "alerta": "Fio esquentando ou disjuntor caindo? **Desligue e chame.**",
+  "cta": "Eu preparo o circuito certo para o seu ar.",
+  "musica": 3,
+  "tema": "amarelo"
+}

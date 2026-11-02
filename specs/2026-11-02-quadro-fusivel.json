@@ -1,0 +1,9 @@
+{
+  "tipo": "card",
+  "layout": "pergunta",
+  "arquivo": "2026-11-02-quadro-fusivel",
+  "etiqueta": "Pergunta de cliente",
+  "titulo": ["Meu quadro", "ainda tem fusível.", "**Preciso trocar?**"],
+  "resposta": "Na maioria dos casos, sim. Quadro com fusível não tem **DR nem DPS** e não aguenta a carga de hoje. O certo é um **quadro de distribuição** com disjuntores por circuito.",
+  "cta": "Eu avalio o seu e explico o que precisa."
+}
