@@ -1,0 +1,16 @@
+{
+  "tipo": "reel",
+  "arquivo": "2026-11-12-padrao-de-entrada",
+  "etiqueta": "Padrão de entrada",
+  "titulo": ["Vai fazer ou", "**trocar o padrão**", "**de entrada?**"],
+  "subtitulo": "É por ali que a energia entra na sua casa.",
+  "itens": [
+    "Precisa seguir as **regras da EDP** para ser ligado",
+    "**Disjuntor e cabos** dimensionados para a sua carga",
+    "Alimentação até o **quadro** e **aterramento** bem feitos"
+  ],
+  "alerta": "Padrão e medidor são energizados: **não mexa sozinho.**",
+  "cta": "Eu faço seu padrão do jeito que a EDP pede.",
+  "musica": 1,
+  "tema": "escuro"
+}
