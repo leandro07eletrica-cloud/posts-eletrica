@@ -14,7 +14,7 @@ Contagem do limite do plano Free do Metricool (20 agendamentos por mês). Uma li
 | 29/10 18:30 | Instagram | Reels (escuro) | Faltou energia só na sua casa ([Metricool](https://app.metricool.com/planner/calendar?blogId=7610648&openWithPostUuid=7757547427782477107)) | Agendado |
 | 29/10 18:30 | Google Meu Negócio | Texto + capa | Faltou energia só na sua casa ([Metricool](https://app.metricool.com/planner/calendar?blogId=7610648&openWithPostUuid=-3180055402412684632)) | Agendado |
 
-## Novembro 2026 · total no mês: 4
+## Novembro 2026 · total no mês: 8
 
 | Data | Rede | Formato | Tema | Status |
 |---|---|---|---|---|
@@ -22,5 +22,9 @@ Contagem do limite do plano Free do Metricool (20 agendamentos por mês). Uma li
 | 02/11 18:30 | Google Meu Negócio | Texto + card | Quadro com fusível: preciso trocar? ([Metricool](https://app.metricool.com/planner/calendar?blogId=7610648&openWithPostUuid=9167659629595935734)) | Agendado |
 | 05/11 18:30 | Instagram | Reels (amarelo) | Ar-condicionado precisa de circuito exclusivo ([Metricool](https://app.metricool.com/planner/calendar?blogId=7610648&openWithPostUuid=801406413786726606)) | Agendado |
 | 05/11 18:30 | Google Meu Negócio | Texto + capa | Ar-condicionado precisa de circuito exclusivo ([Metricool](https://app.metricool.com/planner/calendar?blogId=7610648&openWithPostUuid=3991766700571574664)) | Agendado |
+| 09/11 18:30 | Instagram | Card (mito) | Tomada esquentando não é normal ([Metricool](https://app.metricool.com/planner/calendar?blogId=7610648&openWithPostUuid=3189045284400022349)) | Agendado |
+| 09/11 18:30 | Google Meu Negócio | Texto + card | Tomada esquentando não é normal ([Metricool](https://app.metricool.com/planner/calendar?blogId=7610648&openWithPostUuid=4643556477905618813)) | Agendado |
+| 12/11 18:30 | Instagram | Reels (escuro) | Padrão de entrada: fazer ou trocar do jeito certo ([Metricool](https://app.metricool.com/planner/calendar?blogId=7610648&openWithPostUuid=-8524085220084201005)) | Agendado |
+| 12/11 18:30 | Google Meu Negócio | Texto + capa | Padrão de entrada: fazer ou trocar do jeito certo ([Metricool](https://app.metricool.com/planner/calendar?blogId=7610648&openWithPostUuid=-8669198766795636511)) | Agendado |
 
-Última execução da rotina semanal: 02/11/2026 06:36 (Drive sem fotos novas)
+Última execução da rotina semanal: 09/11/2026 06:36 (Drive sem fotos novas)
