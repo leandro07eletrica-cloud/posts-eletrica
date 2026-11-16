@@ -1,0 +1,16 @@
+{
+  "tipo": "reel",
+  "arquivo": "2026-11-19-luz-piscando",
+  "etiqueta": "Sinal de alerta",
+  "titulo": ["Luz piscando", "**sozinha**", "**em casa?**"],
+  "subtitulo": "Nem sempre é a lâmpada.",
+  "itens": [
+    "Pode ser **mau contato** em interruptor ou emenda",
+    "Pisca quando liga o chuveiro? **Circuito sobrecarregado**",
+    "Se piscar a casa toda, pode ser o **padrão ou a rede**"
+  ],
+  "alerta": "Cheiro de queimado ou estalo: **desligue o disjuntor e me chame.**",
+  "cta": "Eu encontro a causa e resolvo com segurança.",
+  "musica": 2,
+  "tema": "amarelo"
+}
