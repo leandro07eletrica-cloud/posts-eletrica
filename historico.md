@@ -14,7 +14,7 @@ Contagem do limite do plano Free do Metricool (20 agendamentos por mês). Uma li
 | 29/10 18:30 | Instagram | Reels (escuro) | Faltou energia só na sua casa ([Metricool](https://app.metricool.com/planner/calendar?blogId=7610648&openWithPostUuid=7757547427782477107)) | Agendado |
 | 29/10 18:30 | Google Meu Negócio | Texto + capa | Faltou energia só na sua casa ([Metricool](https://app.metricool.com/planner/calendar?blogId=7610648&openWithPostUuid=-3180055402412684632)) | Agendado |
 
-## Novembro 2026 · total no mês: 8
+## Novembro 2026 · total no mês: 12
 
 | Data | Rede | Formato | Tema | Status |
 |---|---|---|---|---|
@@ -26,5 +26,9 @@ Contagem do limite do plano Free do Metricool (20 agendamentos por mês). Uma li
 | 09/11 18:30 | Google Meu Negócio | Texto + card | Tomada esquentando não é normal ([Metricool](https://app.metricool.com/planner/calendar?blogId=7610648&openWithPostUuid=4643556477905618813)) | Agendado |
 | 12/11 18:30 | Instagram | Reels (escuro) | Padrão de entrada: fazer ou trocar do jeito certo ([Metricool](https://app.metricool.com/planner/calendar?blogId=7610648&openWithPostUuid=-8524085220084201005)) | Agendado |
 | 12/11 18:30 | Google Meu Negócio | Texto + capa | Padrão de entrada: fazer ou trocar do jeito certo ([Metricool](https://app.metricool.com/planner/calendar?blogId=7610648&openWithPostUuid=-8669198766795636511)) | Agendado |
+| 16/11 18:30 | Instagram | Card (numero) | DR 30 mA: proteção que salva vidas ([Metricool](https://app.metricool.com/planner/calendar?blogId=7610648&openWithPostUuid=1887620760508973539)) | Agendado |
+| 16/11 18:30 | Google Meu Negócio | Texto + card | DR 30 mA: proteção que salva vidas ([Metricool](https://app.metricool.com/planner/calendar?blogId=7610648&openWithPostUuid=4498398259539231757)) | Agendado |
+| 19/11 18:30 | Instagram | Reels (amarelo) | Luz piscando sozinha ([Metricool](https://app.metricool.com/planner/calendar?blogId=7610648&openWithPostUuid=8000100369684252991)) | Agendado |
+| 19/11 18:30 | Google Meu Negócio | Texto + capa | Luz piscando sozinha ([Metricool](https://app.metricool.com/planner/calendar?blogId=7610648&openWithPostUuid=-6182016055031608877)) | Agendado |
 
-Última execução da rotina semanal: 09/11/2026 06:36 (Drive sem fotos novas)
+Última execução da rotina semanal: 16/11/2026 06:36 (Drive sem fotos novas)
