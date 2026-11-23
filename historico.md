@@ -14,7 +14,7 @@ Contagem do limite do plano Free do Metricool (20 agendamentos por mês). Uma li
 | 29/10 18:30 | Instagram | Reels (escuro) | Faltou energia só na sua casa ([Metricool](https://app.metricool.com/planner/calendar?blogId=7610648&openWithPostUuid=7757547427782477107)) | Agendado |
 | 29/10 18:30 | Google Meu Negócio | Texto + capa | Faltou energia só na sua casa ([Metricool](https://app.metricool.com/planner/calendar?blogId=7610648&openWithPostUuid=-3180055402412684632)) | Agendado |
 
-## Novembro 2026 · total no mês: 12
+## Novembro 2026 · total no mês: 16
 
 | Data | Rede | Formato | Tema | Status |
 |---|---|---|---|---|
@@ -30,5 +30,9 @@ Contagem do limite do plano Free do Metricool (20 agendamentos por mês). Uma li
 | 16/11 18:30 | Google Meu Negócio | Texto + card | DR 30 mA: proteção que salva vidas ([Metricool](https://app.metricool.com/planner/calendar?blogId=7610648&openWithPostUuid=4498398259539231757)) | Agendado |
 | 19/11 18:30 | Instagram | Reels (amarelo) | Luz piscando sozinha ([Metricool](https://app.metricool.com/planner/calendar?blogId=7610648&openWithPostUuid=8000100369684252991)) | Agendado |
 | 19/11 18:30 | Google Meu Negócio | Texto + capa | Luz piscando sozinha ([Metricool](https://app.metricool.com/planner/calendar?blogId=7610648&openWithPostUuid=-6182016055031608877)) | Agendado |
+| 23/11 18:30 | Instagram | Card (lista) | Pane depois do temporal: sinais na instalação ([Metricool](https://app.metricool.com/planner/calendar?blogId=7610648&openWithPostUuid=5927641846861482191)) | Agendado |
+| 23/11 18:30 | Google Meu Negócio | Texto + card | Pane depois do temporal: sinais na instalação ([Metricool](https://app.metricool.com/planner/calendar?blogId=7610648&openWithPostUuid=4747772941488636525)) | Agendado |
+| 26/11 18:30 | Instagram | Reels (escuro) | Benjamim e extensão: gambiarra perigosa ([Metricool](https://app.metricool.com/planner/calendar?blogId=7610648&openWithPostUuid=-8515573199227501699)) | Agendado |
+| 26/11 18:30 | Google Meu Negócio | Texto + capa | Benjamim e extensão: gambiarra perigosa ([Metricool](https://app.metricool.com/planner/calendar?blogId=7610648&openWithPostUuid=-1049189820914710784)) | Agendado |
 
-Última execução da rotina semanal: 16/11/2026 06:36 (Drive sem fotos novas)
+Última execução da rotina semanal: 23/11/2026 06:36 (Drive sem fotos novas)
