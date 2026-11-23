@@ -1,0 +1,14 @@
+{
+  "tipo": "card",
+  "layout": "lista",
+  "arquivo": "2026-11-23-pane-apos-temporal",
+  "etiqueta": "Época de chuva",
+  "titulo": ["Depois do temporal", "**algo parou**", "**de funcionar?**"],
+  "subtitulo": "Raio e oscilação deixam sinais na instalação.",
+  "itens": [
+    "Tomadas ou um cômodo **sem energia** e o resto normal",
+    "Disjuntor ou **DR desarmando** sem motivo aparente",
+    "Aparelho queimado ou **cheiro de queimado** no quadro"
+  ],
+  "cta": "Não fique religando no escuro. **Eu faço o diagnóstico.**"
+}

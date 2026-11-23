@@ -1,0 +1,16 @@
+{
+  "tipo": "reel",
+  "arquivo": "2026-11-26-benjamim-extensao",
+  "etiqueta": "Perigo em casa",
+  "titulo": ["Benjamim e", "**extensão:**", "**gambiarra perigosa**"],
+  "subtitulo": "No calor, todo mundo liga mais aparelho junto.",
+  "itens": [
+    "Ventilador, ar e carregador no mesmo **benjamim**",
+    "Plugue ou extensão **esquentando** é sobrecarga",
+    "Falta tomada? O certo é **instalar um ponto novo**"
+  ],
+  "alerta": "Plugue derretido ou escurecido: **desligue e me chame.**",
+  "cta": "Eu instalo tomadas novas com segurança.",
+  "musica": 1,
+  "tema": "escuro"
+}
